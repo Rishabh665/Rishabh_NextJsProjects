@@ -11,7 +11,7 @@ export default function Home(){
           </Link>
         </li>
         <li>
-          <Link href={"/mini-prjects/accordion"}>My Accordion Project</Link>
+          <Link href={"/mini-projects/accordion"}>My Accordion Project</Link>
         </li>
       </ul>
     </div>
