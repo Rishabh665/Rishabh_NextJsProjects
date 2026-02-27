@@ -9,7 +9,7 @@ const MyCounterApp = () => {
     <>
       <div>
         <hr />
-        <h2>(1) MyCounterApp</h2>
+        <h2>MyCounterApp</h2>
         <h3>Count:{" " + count}</h3>
         <div>
           <button onClick={() => setDisplayCount((count = count - 1))}>

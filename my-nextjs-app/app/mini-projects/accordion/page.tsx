@@ -1,7 +1,21 @@
-import MyAccordion1 from "@/projects/singleOpenAccordionLogic";
+import Link from "next/link";
 
-export default function Accordionpage() {
+export default function Variant() {
   return (
-    <MyAccordion1/>
-  )
-};
+    <div>
+      <h2>Accordion Variant Page </h2>
+      <ul>
+        <li>
+          <Link href={"/mini-projects/accordion/single-open"}>
+            Single Open Accordion
+          </Link>
+        </li>
+        <li>
+          <Link href={"/mini-projects/accordion/single-open"}>
+            Multi Open Accordion
+          </Link>
+        </li>
+      </ul>
+    </div>
+  );
+}
